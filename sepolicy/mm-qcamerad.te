@@ -1,3 +1,5 @@
+type perfd, domain;
+type perfd_exec, exec_type, file_type;
 allow mm-qcamerad mpctl_socket:dir search;
 allow mm-qcamerad mpctl_socket:sock_file write;
 allow mm-qcamerad perfd:unix_stream_socket connectto;
