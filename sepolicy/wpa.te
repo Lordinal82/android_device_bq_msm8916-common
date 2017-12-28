@@ -1,1 +1,3 @@
+type wpa, domain;
+type wpa_exec, exec_type, file_type;
 allow wpa wifi_data_file:sock_file { create setattr };
